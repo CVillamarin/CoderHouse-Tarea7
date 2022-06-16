@@ -1,0 +1,157 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    margin: 0;
+}
+ul{
+   text-align: center;
+   list-style: none;
+}
+
+header{
+    background-color:  #A52F2A;
+    margin-bottom: -0.5%;
+}
+main{
+    background-color: cornsilk;
+    padding: 0%;
+    margin: 0%
+}
+footer{
+    padding-bottom: 1%;
+    background-color:  #A52F2A;
+}
+.bodycss{
+    padding-bottom: 15%;
+    padding-top: 5%;
+}
+.border{
+    border-style:solid;
+}
+.lidos{
+    border-style: solid;
+    background-color: cornsilk;
+ 
+}
+.margincss{
+    margin-top: 10%;
+}
+.grid{
+    display: grid;
+    grid-template-columns:none;
+}
+.border{
+    border-style: solid;
+}
+.padre-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly; 
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(110%);
+    border-style:solid ;
+    margin-top: 0.9%;
+    margin-bottom: 2%;
+}
+
+
+.titulo{
+    font-size: 150%;
+    text-decoration: underline;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 120%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.articulo{
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 2%;
+}
+.subparrafo{
+    margin-left: 2%;
+}
+.subparrafodos{
+    margin-left: 2%;
+    border: solid;
+}
+.padding{
+    padding: 7%;
+   border: solid;
+}
+.parrafouno{
+    margin-left: 20%;
+    font-size: medium;
+    line-height: 1.4;
+    height: 60%;
+    width: 60%;
+}
+.parrafo{
+    font-size: medium;
+    line-height: 1.4;
+    border-style: solid;
+    padding: 5%;
+}
+.subrayado{
+    text-decoration: underline;
+}
+.chica{
+    font-size: small;
+    font-weight: 900;
+    margin: 2%;
+}
+
+.footer{
+    font-size: smaller;
+    font-weight: bolder;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%; 
+    height: 40px;
+}
+.shadow-pop-tr {
+	-webkit-animation: shadow-pop-tr 30s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr 30s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+
+/*desktop*/
+@media (min-width:1024px) {
+    body{
+        background-color: #A52F2A;}     
+}
+
+/*tablet*/
+@media (min-width:481px) and (max-width:1023px){
+    body{
+        background-color: #A52F2A;}
+    .padre-flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly; 
+        }
+}
+/*smartphone*/
+@media(max-width:480px){
+    body{
+        background-color:#A52F2A;}
+    .padre-flex{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+        justify-content: space-evenly; 
+        }
+}
